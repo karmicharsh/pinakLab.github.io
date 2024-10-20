@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#assignment {
+    background: linear-gradient(135deg, #2E1A63 50%, #ffffff 50%);
+}
+
+.service-box {
+    transition: transform 0.5s;
+}
+
+.service-box:hover {
+    transform: rotate(360deg);
+}
+
+.icon-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 10px;
+}
